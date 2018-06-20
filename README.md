@@ -1,3 +1,20 @@
+# My notes
+I have yet to get anything out of it. I expected to obtain a vector from embedding, but there are issues.
+https://github.com/tonghuikang/SIF/blob/master/src/SIF_embedding.py died while running :( 
+Currently I am increasing the RAM
+
+Why you no try running your code :(
+NameError: global name 'seq1' is not defined
+https://github.com/PrincetonML/SIF/issues/25
+
+Also the code got problem :(
+https://github.com/PrincetonML/SIF/issues/26
+
+Overloading of "params"
+So I changed some "params" to "paramsz"
+
+Works now, committing soon. I don't know how the vectors work though, need to read the code and or paper :/
+
 # SIF
 
 This is the code for [the paper](https://openreview.net/forum?id=SyK00v5xx) "A Simple but Tough-to-Beat Baseline for Sentence Embeddings".
