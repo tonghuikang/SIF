@@ -23,3 +23,4 @@ params = params.params()
 params.rmpc = rmpc
 # get SIF embedding
 embedding = SIF_embedding.SIF_embedding(We, x, w, params) # embedding[i,:] is the embedding for sentence i
+print(embedding)
