@@ -4,6 +4,8 @@ I have yet to get anything out of it. I expected to obtain a vector from embeddi
 https://github.com/tonghuikang/SIF/blob/master/src/SIF_embedding.py died while running :( 
 Currently I am increasing the RAM
 
+840B glove uses 64% of GCP 8vCPU 52GB ram
+
 need to use python2 it seems to use code from data_io.py referenced in  SIF_embedding.py 
 ValueError: could not convert string to float: '.'
 
